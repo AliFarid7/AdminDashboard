@@ -12,7 +12,7 @@ body {
     height: 100%;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 3fr;
@@ -36,11 +36,10 @@ body {
     margin: 15px;
 }
 
-.dashboard img{
+img {
     height: 19px;
     width: 40px;
     margin-right: 8px;
-    color: white;
     vertical-align: middle;
 }
 
@@ -48,8 +47,81 @@ body {
     filter: brightness(0) invert(1);
 }
 
-.dashboard .big-image{
+.dashboard .big-image {
     height: 40px;
     width: 40px;
     vertical-align: middle;
+}
+
+input{
+    background-color: rgb(226, 232, 240);
+    border-radius: 20px;
+    border: none;
+    width: 600px;
+    height: 30px;
+    margin-right: 150px;
+}
+
+.header{
+    margin-top: 20px;
+    margin-left: 40px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.cat {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.user-name{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.second-header-row{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.hi-there {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-header{
+    display: flex;
+}
+
+button{
+    background-color: rgb(25, 146, 212);
+    border-radius: 20px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.right-header{
+    display: flex;
+    gap: 25px;
+    margin-right: 80px;
+}
+
+.yourProjects{
+    background-color: rgb(226, 232, 240);
 }
