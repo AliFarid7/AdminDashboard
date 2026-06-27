@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr 1.5fr;
     grid-template-rows: auto 1fr;
-    fheight: 100vh;
+    height: 100vh;
 }
 
 .dashboard {
@@ -57,7 +57,7 @@ input {
     background-color: rgb(226, 232, 240);
     border-radius: 20px;
     border: none;
-    width: 600px;
+    width: min(600px, 100%);
     height: 30px;
     margin-right: 150px;
 }
